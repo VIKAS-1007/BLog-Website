@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: gold;
+  src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#head {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 15%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  align-content: center;
+}
+
+#head h1 {
+  justify-self: center;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+#head input {
+  justify-self: end;
+  width: 4rem;
+  filter: grayscale(100%);
+}
+
+#head a {
+  color: gray;
+}
+
+#container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  /* overflow-x: hidden;
+  overflow-y: auto; */
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  grid-template-rows: 70% 26% 34% 85%;
+  column-gap: 2rem;
+}
+
+.box {
+  /* background-color: green; */
+  /* border: 1px solid black; */
+}
+
+#two {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-rows: 0.5fr 0.9fr 0.5fr;
+  row-gap: 5px;
+}
+
+#two > div {
+  /* background-color: blue; */
+}
+
+#about {
+  padding-left: 1rem;
+  background-color: rgba(193, 193, 193, 0.2);
+}
+
+#about h3 {
+  font-size: 2rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+#about p {
+  font-family: gold;
+}
+
+#archives a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: rgb(87, 85, 217);
+}
+
+#archives h3 {
+  font-size: 2rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+#archives {
+  padding-left: 1rem;
+}
+
+#elsewhere h3 {
+  font-size: 2rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+#elsewhere a {
+  margin-bottom: 0.5rem;
+  display: block;
+  color: rgb(87, 85, 217);
+}
+
+#elsewhere {
+  padding-left: 1rem;
+}
+
+#one h2 {
+  /* font-family: gold; */
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#one h4 {
+  color: rgba(193, 193, 193, 1);
+  font-family: gold;
+  font-weight: 400;
+}
+
+#one a {
+  color: rgb(87, 85, 217);
+  font-family: gold;
+}
+
+#one p {
+  font-family: gold;
+  font-weight: 450;
+}
+
+#one #p1 {
+  margin-top: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+#one #p2 {
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(193, 193, 193, 1);
+  margin-bottom: 1.5rem;
+}
+
+#one #p3 {
+  padding-bottom: 1.5rem;
+  border: 1px solid rgba(193, 193, 193, 1);
+  margin-bottom: 1.5rem;
+}
+
+#three h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+#three p {
+  font-family: gold;
+  font-weight: 450;
+}
+
+#four h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#four p {
+  font-family: gold;
+  font-weight: 450;
+}
+
+#four #p1 {
+  margin-bottom: 1rem;
+}
+
+#four #p2 {
+  margin-bottom: 2rem;
+  border: 1px solid rgba(193, 193, 193, 1);
+}
+
+#five h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#five p,
+ul,
+ol {
+  font-family: gold;
+  font-weight: 450;
+}
+
+#five #p1 {
+  padding-bottom: 1rem;
+}
+
+#five ul,
+ol {
+  padding-left: 2.5rem;
+}
+
+#five li {
+  margin-bottom: 0.5rem;
+}
+
+#five #p2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#five #p3 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#five a {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid rgba(193, 193, 193, 1);
+  border-radius: 10px;
+  padding: 0.4;
+  overflow: hidden;
+  margin-right: 0.3rem;
+}
